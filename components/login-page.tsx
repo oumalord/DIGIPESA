@@ -31,13 +31,7 @@ export function LoginPage() {
     }
     setIsLoading(false)
   }
-
-  const demoCredentials = [
-    { role: "User", email: "brianmageto@digipesa.com", password: "Brian@2001", clearance: "Level 3" },
-    { role: "Admin", email: "obwandalordphick@digipesa.com", password: "JESUS39814057", clearance: "Level 5" },
-    { role: "Operator", email: "harietbeverlyne@digipesa.com", password: "Hariet@345", clearance: "Level 4" },
-  ]
-
+  
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 flex items-center justify-center p-4">
       <div className="w-full max-w-6xl grid grid-cols-1 lg:grid-cols-2 gap-8">
